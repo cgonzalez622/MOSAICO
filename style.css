@@ -4,11 +4,10 @@ body, h1 {
 
 h1 {
   letter-spacing: 6px;
-  font-size: larger;
 }
 
 body {
-    font-size: large;
+    font-size: larger;
 }
 
 .w3-row-padding img {
