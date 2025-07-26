@@ -8,7 +8,7 @@ h1 {
 }
 
 body {
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .w3-row-padding img {
@@ -267,3 +267,14 @@ ul, .myUL {
     padding: 1rem;
 }
 
+/* IMAGE */
+
+.img_deg {
+    float: right;
+}
+
+.pos_cen { 
+   margin: 0 auto;
+    width: 50%;
+
+}
