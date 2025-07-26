@@ -266,15 +266,3 @@ ul, .myUL {
 .item {
     padding: 1rem;
 }
-
-/* IMAGE */
-
-.img_deg {
-    float: right;
-}
-
-.pos_cen { 
-   margin: 0 auto;
-    width: 50%;
-
-}
