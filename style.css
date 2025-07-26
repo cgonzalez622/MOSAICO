@@ -266,3 +266,8 @@ ul, .myUL {
 .item {
     padding: 1rem;
 }
+
+.topic {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
