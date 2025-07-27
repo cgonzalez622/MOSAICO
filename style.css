@@ -232,3 +232,8 @@ ul, .myUL {
     padding: 1rem;
 }
 
+/* CARET GENERAL */
+/* Style the caret/arrow */
+.bullet{
+    list-style-type: square;
+}
