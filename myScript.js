@@ -67,3 +67,17 @@ for (i = 0; i < toggler.length; i++) {
     this.classList.toggle("caret6-down");
   });
 }
+
+window.onscroll = function() {
+    const toTopBtn = document.getElementById("toTopBtn");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        toTopBtn.style.display = "block";
+    } else {
+        toTopBtn.style.display = "none";
+    }
+}
+
+document.getElementById("toTopBtn").addEventListener("click", function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+})
