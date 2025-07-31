@@ -81,3 +81,20 @@ document.getElementById("toTopBtn").addEventListener("click", function(e) {
     e.preventDefault();
     window.scrollTo({ top: 0, behavior: 'smooth' });
 })
+
+
+document.addEventListener("DOMContentLoaded", function () {
+const modal = document.getElementById("modal01");
+const modalImg = document.getElementById("img01");
+const captionText = document.getElementById("caption");
+
+// Loop through all images
+document.querySelectorAll("img").forEach(function (img) {
+    img.style.cursor = "pointer";
+    img.addEventListener("click", function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt || "";
+    });
+});
+});
